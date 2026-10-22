@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpiderShop - Comics, Collectibles and Apparel</title>
+</head>
+<body>
+  <header id="top">
+    <h1>SpiderShop</h1>
+    <form action="#" method="get">
+      <input type="search" name="q" placeholder="Search webs...">
+      <button type="submit">Search</button>
+    </form>
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#comics">Comics</a> |
+      <a href="#collectibles">Collectibles</a> |
+      <a href="#apparel">Apparel</a> |
+      <a href="#cart">Cart</a> |
+      <a href="#checkout">Checkout</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>With Great Power Comes Great Shopping</h2>
+      <p>Welcome to SpiderShop — your one-stop online store for Spider-Man comics, collectibles, and apparel. Swing into action with exclusive merch and classic issues!</p>
+      <a href="#comics"><button type="button">Shop Now</button></a>
+      <hr>
+    </section>
+
+      <h3>RECENT WISHLIST ITEMS</h3>
+      <figure>
+        <img src="images.jpg" alt="Amazing Spider-Man comic book cover" width="200" height="300">
+        <figcaption><strong>Amazing Spider-Man #1</strong> – Classic reprint, mint condition.</figcaption>
+      </figure>
+      <figure>
+        <img src="detail.jpg" alt="Ultimate Spider-Man volume cover" width="200" height="300">
+        <figcaption><strong>Ultimate Spider-Man Vol. 1</strong> – Modern origin story.</figcaption>
+      </figure>
+      <figure>
+        <img src="lilipat.jpg"Spider-Verse graphic novel" width="200" height="300">
+        <figcaption><strong>Spider-Verse Graphic Novel</strong> – Based on the hit movie.</figcaption>
+      </figure>
+      <small>Note: These are placeholder images. They can be replaced with real product photos.</small>
+      <hr>
+    </section>
+
+    <section id="PRODUCT LISTING">
+      <h2>Collectibles</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <img src="sg-11134201-7qvfq-lhslnf6qa0oe88.jpg" alt="sg-11134201-7qvfq-lhslnf6qa0oe88"
+            width="200"
+            height="300">
+            <h3> Spidey Action Figure</h3>
+            <p>6-inch articulated figure with web accessories.</p>
+            <p><strong>₱1,200.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <img src="1Ft1p.jpg"1Ft1tp"
+            width="200"
+            height="300">
+            <h3> Web-Shooter Replica</h3>
+            <p>Wearable web-shooter prop, LED lights included.</p>
+            <p><strong>₱850.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <img src="F5w6f.jpg" alt="F5w6f"
+            width="200"
+            height="300">
+            <h3> Daily Bugle Mug</h3>
+            <p>Ceramic mug with classic Daily Bugle logo.</p>
+            <p><strong>₱299.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+      <hr>
+    </section>
+
+    <section id="SHOPPING CART">
+      <h2>SHOPPING CART</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3>Classic Spider-Man Tee</h3>
+            <img src="N4hLe.jpg" alt="N4hLe"
+            width="200"
+            height="300">
+            <p>Red and blue logo t-shirt, 100% cotton.</p>
+            <p><strong>₱599.00</strong></p>
+            <label for="size-tshirt">Size:</label>
+            <select id="size-tshirt" name="size-tshirt">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </select>
+            <br><br>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3> Miles Morales Hoodie</h3>
+            <img src="KtiQC.jpg" alt="KtiQC"
+            width="200"
+            height="300">
+            <p>Black hoodie with Miles Morales suit design.</p>
+            <p><strong>₱1,499.00</strong></p>
+            <label for="size-hoodie">Size:</label>
+            <select id="size-hoodie" name="size-hoodie">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </select>
+            <br><br>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>Spider-Man Cap</h3>
+            <img src="W922K.jpg" alt="W922K"
+            width="200"
+            height="300">
+            <p>Adjustable snapback with embroidered logo.</p>
+            <p><strong>₱450.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+      <hr>
+    </section>
+
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Subtotal</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Amazing Spider-Man #1</td>
+            <td>₱450.00</td>
+            <td><input type="number" min="1" max="20" value="1"></td>
+            <td>₱450.00</td>
+            <td><button type="button">Remove</button></td>
+          </tr>
+          <tr>
+            <td>Classic Spider-Man Tee</td>
+            <td>₱599.00</td>
+            <td><input type="number" min="1" max="20" value="2"></td>
+            <td>₱1,198.00</td>
+            <td><button type="button">Remove</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3"><strong>Total</strong></td>
+            <td colspan="2"><strong>₱1,648.00</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+      <br>
+      <a href="#checkout"><button type="button">Proceed to Checkout</button></a>
+      <hr>
+    </section>
+
+    <section id="checkout">
+      <h2>Checkout</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Shipping Details</legend>
+          <p>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </p>
+          <p>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+63 912 345 6789">
+          </p>
+          <p>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="3" cols="40" required></textarea>
+          </p>
+          <p>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" list="cities">
+            <datalist id="cities">
+              <option value="Baguio City">
+              <option value="Manila">
+              <option value="Quezon City">
+              <option value="Cebu City">
+            </datalist>
+          </p>
+          <p>
+            <label for="delivery-date">Delivery Date:</label>
+            <input type="date" id="delivery-date" name="delivery-date">
+          </p>
+          <p>
+            <label for="delivery-option">Delivery Option:</label>
+            <select id="delivery-option" name="delivery-option">
+              <option value="standard">Standard</option>
+              <option value="express">Express</option>
+              <option value="pickup">Store Pick-up</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment Method</legend>
+          <p>
+            <input type="radio" id="visa" name="payment" value="visa" checked>
+            <label for="visa">VISA</label>
+          </p>
+          <p>
+            <input type="radio" id="mc" name="payment" value="mc">
+            <label for="mc">MC</label>
+          </p>
+          <p>
+            <input type="radio" id="paypal" name="payment" value="paypal">
+            <label for="paypal">PAYPAL</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <input type="checkbox" id="giftwrap" name="extras" value="giftwrap">
+          <label for="giftwrap">Gift wrap</label>
+        </p>
+        <p>
+          <input type="checkbox" id="receipt" name="extras" value="receipt">
+          <label for="receipt">Include receipt</label>
+        </p>
+        <p>
+          <input type="checkbox" id="terms" name="terms" value="agree" required>
+          <label for="terms">I agree to the <a href="#terms-info">Terms &amp; Conditions</a></label>
+        </p>
+
+        <button type="submit">Place Order</button>
+        <button type="reset">Clear</button>
+      </form>
+      <hr>
+    </section>
+
+    <section id="contact">
+      <h2>Visit Our Store</h2>
+      <section id="map">
+
+        <h2>Find Our Location</h2>
+
+        <p>
+            OUR MAIN IS IN THE MANILA CITY.
+        </p>
+
+        <p>
+            <a href="https://www.google.com/maps/search/luneta+park/@15.4953951,120.1261343,9z"
+               target="_blank"
+               rel="noopener">
+                Spider-Verse World
+            </a>
+        </p>
+
+        <hr>
+
+    </section>
+      <br>
+      <a href="https://www.openstreetmap.org/#map=14/16.4023/120.5960" target="_blank" rel="noopener">View larger map</a>
+
+      <h3>Reach Us</h3>
+      <address>
+        SpiderShop HQ<br>
+        General Luna Road, Baguio City, Benguet, Philippines<br>
+        Phone: <a href="tel:+63744423071">+63 74 442-3071</a><br>
+        Email: <a href="mailto:hello@spidershop.example">hello@spidershop.example</a>
+      </address>
+
+      <h3>Leave a Review</h3>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <p>
+          <label for="reviewer-name">Your Name:</label>
+          <input type="text" id="reviewer-name" name="reviewer-name" required>
+        </p>
+        <p>
+          <label for="rating">Rating (1-5):</label>
+          <input type="range" id="rating" name="rating" min="1" max="5" value="5">
+        </p>
+        <p>
+          <label for="review-text">Your Review:</label>
+          <textarea id="review-text" name="review-text" rows="4" cols="40" required></textarea>
+        </p>
+        <p>
+          <label for="review-photo">Optional Photo:</label>
+          <input type="file" id="review-photo" name="review-photo" accept="image/*">
+        </p>
+        <button type="submit">Submit Review</button>
+      </form>
+      <hr>
+    </section>
+
+    <section id="links">
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap</a></li>
+        <li><a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">SpiderShop on Facebook</a></li>
+        <li><a href="#top">Back to top</a></li>
+      </ul>
+    </section>
+
+    <section id="terms-info">
+      <h2>Terms &amp; Conditions</h2>
+      <details>
+        <summary>Read the terms</summary>
+        <ol>
+          <li>Returns are accepted within 7 days of delivery for unused items in original packaging.</li>
+          <li>Standard delivery takes 3–5 business days; Express delivery takes 1–2 business days.</li>
+          <li>Payment must be completed before order processing. Cash on Delivery is available for selected areas only.</li>
+        </ol>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>
+      <a href="#home">About Us</a> |
+      <a href="#contact">Contact</a> |
+      <a href="#terms-info">Shipping Policy</a> |
+      <a href="#terms-info">Returns</a>
+    </p>
+    <p>&copy; 2026 SpiderShop. All rights reserved. With great power comes great shopping.</p>
+  </footer>
+</body>
+</html>
